@@ -82,12 +82,16 @@ common
 .bt{
     border: none;
     display: inline;
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 .container-small{
     max-width: 950px;
     margin: 200px auto;
 }
-
+ul{
+    list-style: none;
+}
 /*------------
 header  
 --------------*/
@@ -104,36 +108,36 @@ header{
     align-items: center;
 }
 .main-nav ul{
-    list-style: none;
+    
     display: flex;
     justify-content: center;
 }
 .main-nav ul li{
     margin: 0 20px;
 }
-.main-nav ul li a{
+.main-nav ul li a, .col-thin ul li a{
     text-decoration: none;
     color: #ffff;
-    
 }
+    
 h1{
     margin: 50px;
-    
+    font-weight: bold;
+    font-size: 48px;
 }
+    
 p{
     line-height: 30px;
-    
 }    
+    
 .header-top-bt{
     background-color:#ffff ;
-    padding: 10px 20px;
-    border-radius: 25px;
-    
+   
 }
+    
 .header-bottom-bt{
     background-color:#23272a ;
-    padding: 10px 20px;
-    border-radius: 25px;
+    
     color: white;
 }
 .hero{
@@ -142,25 +146,18 @@ p{
     height: 650px;
     color: white;
     text-align: center;
-    
 }
     
-
-    
-    
-
-    
-    
-
 /*------------
 main  
 --------------*/
 section{
     padding:40px 0;
 }
-.row{
+.row-main{
     display: flex;
-
+    
+    align-items: center;
 }
 
 .col-big{
@@ -168,15 +165,49 @@ section{
 }
 
 .col-small{
-    width: 40%;
+    width: 20%;
+    height: 350px;
+    
+}
+h2{
+    line-height: 40px;
+    margin-bottom: 30px;
 }
 section:nth-child(2n){
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
-
+.main-bottom{
+    text-align: center;
+    
+}
+.main-bt, .footer-bt{
+    color: white;
+    background-color: #7289DA;
+}
+.main-bottom-img{
+    text-align: center;
+}
+.main-bottom-btn{
+    text-align: center;
+}
+h4{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
 /*------------
 Footer  
 --------------*/
+footer{
+    background-color: #23272a;
+}
+.row-footer{
+    display: flex;
+    align-items: baseline;
+    color:#7289DA ;
+    
+}
+    
 .col-large{
     width: 40%;
 }
@@ -188,4 +219,29 @@ Footer
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 2px solid #7289DA;
+    
 }
+.bandierina{
+    display: flex;
+    color: white;
+} 
+#italy{
+    width: 10%;
+}
+#icone-social{
+    display: flex;
+    color: white;
+    
+    
+}
+.social{
+    margin-right: 15px;
+}
+
+h5{
+    font-size: 16px;
+}
+.col-thin ul li {
+    margin: 20px 0;
+} 
