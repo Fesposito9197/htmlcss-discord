@@ -81,8 +81,12 @@ common
 }
 .bt{
     border: none;
+    display: inline;
 }
-
+.container-small{
+    max-width: 950px;
+    margin: 200px auto;
+}
 
 /*------------
 header  
@@ -112,8 +116,14 @@ header{
     color: #ffff;
     
 }
-
+h1{
+    margin: 50px;
     
+}
+p{
+    line-height: 30px;
+    
+}    
 .header-top-bt{
     background-color:#ffff ;
     padding: 10px 20px;
@@ -127,16 +137,20 @@ header{
     color: white;
 }
 .hero{
-    display: flex;
-    
-    flex-flow: column wrap ;
-    
-    align-items: center;
     background-image: url(/img/jumbo.png);
     background-size: cover;
-    height: 500px;
+    height: 650px;
     color: white;
+    text-align: center;
+    
 }
+    
+
+    
+    
+
+    
+    
 
 /*------------
 main  
