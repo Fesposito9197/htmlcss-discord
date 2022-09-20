@@ -82,16 +82,7 @@ common
 .bt{
     border: none;
 }
-.testo{
-    display: inline;
-    
-    
-}
-h1{
-    text-align: center;
-    
-    padding: 30px 0;
-}
+
 
 /*------------
 header  
@@ -120,20 +111,31 @@ header{
     text-decoration: none;
     color: #ffff;
     
-}   
+}
+
     
-.header-bt{
+.header-top-bt{
     background-color:#ffff ;
     padding: 10px 20px;
     border-radius: 25px;
     
 }
+.header-bottom-bt{
+    background-color:#23272a ;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+}
 .hero{
     display: flex;
+    
+    flex-flow: column wrap ;
+    
     align-items: center;
     background-image: url(/img/jumbo.png);
     background-size: cover;
     height: 500px;
+    color: white;
 }
 
 /*------------
