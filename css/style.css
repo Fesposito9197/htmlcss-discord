@@ -77,27 +77,64 @@ common
 .container{
     max-width: 1200px;
     margin: auto;
-
+    
 }
+.bt{
+    border: none;
+}
+.testo{
+    display: inline;
+    
+    
+}
+h1{
+    text-align: center;
+    
+    padding: 30px 0;
+}
+
 /*------------
 header  
 --------------*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header{
     padding: 16px 0;
+    background-color: #255EE9;
 }
 .header-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.main-nav ul li{
+    margin: 0 20px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: #ffff;
     
+}   
     
+.header-bt{
+    background-color:#ffff ;
+    padding: 10px 20px;
+    border-radius: 25px;
     
 }
 .hero{
     display: flex;
     align-items: center;
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
+    height: 500px;
 }
-
 
 /*------------
 main  
