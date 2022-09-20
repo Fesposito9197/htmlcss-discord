@@ -225,6 +225,7 @@ footer{
 .bandierina{
     display: flex;
     color: white;
+    margin-bottom: 10px;
 } 
 #italy{
     width: 10%;
